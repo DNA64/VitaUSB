@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -91,13 +91,23 @@
 <rectangle x1="22.1488" y1="19.3548" x2="23.5458" y2="20.5486" layer="1" rot="R90"/>
 <text x="22.3774" y="18.796" size="0.254" layer="121">4.7 μH</text>
 <text x="17.2974" y="12.2682" size="0.6096" layer="121">+ DP DN -</text>
-<text x="11.9126" y="15.0368" size="0.6096" layer="121">HaiHakkuIku
-VitaUSB
-v wifi-01</text>
 <wire x1="10.1346" y1="29.4894" x2="10.1346" y2="11.5824" width="0.0508" layer="20"/>
 <wire x1="10.1346" y1="11.5824" x2="32.2072" y2="11.5824" width="0.0508" layer="20"/>
 <wire x1="32.2072" y1="11.5824" x2="32.2072" y2="29.4894" width="0.0508" layer="20"/>
 <wire x1="32.2072" y1="29.4894" x2="10.1346" y2="29.4894" width="0.0508" layer="20"/>
+<text x="10.4902" y="15.0114" size="0.6096" layer="121">HaiHakkuIku
+VitaUSB
+v wifi-02</text>
+<rectangle x1="22.2504" y1="17.0942" x2="23.4442" y2="18.5928" layer="29"/>
+<rectangle x1="22.2504" y1="19.2532" x2="23.4442" y2="20.6502" layer="29"/>
+<rectangle x1="25.3238" y1="17.5514" x2="26.289" y2="18.6944" layer="29"/>
+<rectangle x1="25.3238" y1="15.9766" x2="26.289" y2="17.1196" layer="29"/>
+<rectangle x1="28.1432" y1="15.9766" x2="29.1084" y2="17.1196" layer="29"/>
+<rectangle x1="28.1432" y1="17.5514" x2="29.1084" y2="18.6944" layer="29"/>
+<rectangle x1="29.3116" y1="17.7292" x2="30.2768" y2="18.8722" layer="29"/>
+<rectangle x1="28.1686" y1="19.304" x2="29.1338" y2="20.447" layer="29"/>
+<rectangle x1="29.3116" y1="19.304" x2="30.2768" y2="20.447" layer="29"/>
+<rectangle x1="28.1686" y1="20.8026" x2="29.1338" y2="21.9456" layer="29"/>
 </plain>
 <libraries>
 <library name="Microchip_By_element14_Batch_1">
