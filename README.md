@@ -2,14 +2,17 @@
 A Ps vita usb adaptor for the vita based on yifanfu's schematics here: https://github.com/yifanlu/psvsd (he was a massive help with questions and looking over it for me).
 
 # OSH Park link 
-https://oshpark.com/shared_projects/GDik3kMx be warned they dont provide the correct thickness of 1mm 
+3g: https://oshpark.com/shared_projects/GDik3kMx 
+wifi: https://oshpark.com/shared_projects/Ndr1LAlX
+
+be warned they dont provide the correct thickness of 1mm 
 
 Circuit:
 3g Version (requires no soldering to the vita):
 
 ![circuit](http://i.imgur.com/ug2KuRa.png)
 
-Wifi Version (requires no soldering to the vita):
+Wifi Version (requires soldering to the vita with 4 wires):
 
 ![circuit](http://i.imgur.com/YdT3wTu.png)
 
