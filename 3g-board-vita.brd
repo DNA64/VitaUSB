@@ -6,9 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -99,99 +113,34 @@
 <rectangle x1="28.1686" y1="19.304" x2="29.1338" y2="20.447" layer="29"/>
 <rectangle x1="29.3116" y1="19.304" x2="30.2768" y2="20.447" layer="29"/>
 <rectangle x1="28.1686" y1="20.8026" x2="29.1338" y2="21.9456" layer="29"/>
-<text x="4.4196" y="21.7424" size="0.8128" layer="29">HaiHakkuIku
+<text x="4.445" y="21.5646" size="0.8128" layer="29">HaiHakkuIku
 VitaUSB
-v 3g-02</text>
+v 3g-03</text>
+<rectangle x1="6.985" y1="10.3124" x2="7.5946" y2="12.7" layer="1"/>
+<rectangle x1="7.7978" y1="10.287" x2="8.4074" y2="12.7" layer="1"/>
+<rectangle x1="8.5852" y1="10.287" x2="9.1948" y2="12.7" layer="1"/>
+<rectangle x1="30.2006" y1="10.3124" x2="30.7848" y2="12.7" layer="1"/>
+<wire x1="31.9405" y1="10.16" x2="31.9405" y2="13.3604" width="0.002540625" layer="20"/>
+<wire x1="6.2484" y1="13.3604" x2="6.2484" y2="10.16" width="0.002540625" layer="20"/>
+<wire x1="31.9405" y1="13.3604" x2="34.0868" y2="13.3604" width="0.002540625" layer="20"/>
+<wire x1="4.1021" y1="13.3604" x2="6.2484" y2="13.3604" width="0.002540625" layer="20"/>
+<wire x1="34.0868" y1="13.3604" x2="34.0868" y2="43.1673" width="0.002540625" layer="20"/>
+<rectangle x1="6.985" y1="10.3124" x2="7.5946" y2="12.7" layer="29"/>
+<rectangle x1="7.7978" y1="10.287" x2="8.4074" y2="12.7" layer="29"/>
+<rectangle x1="8.5852" y1="10.287" x2="9.1948" y2="12.7" layer="29"/>
+<rectangle x1="30.2006" y1="10.3124" x2="30.7848" y2="12.7" layer="29"/>
+<wire x1="14.5161" y1="10.16" x2="14.5161" y2="13.4493" width="0.002540625" layer="20"/>
+<wire x1="14.5161" y1="13.4493" x2="15.24" y2="14.1732" width="0.002540625" layer="20" curve="-90"/>
+<wire x1="15.24" y1="14.1732" x2="15.2654" y2="14.1732" width="0.002540625" layer="20"/>
+<wire x1="15.2654" y1="14.1732" x2="16.0147" y2="13.4239" width="0.002540625" layer="20" curve="-90"/>
+<wire x1="16.0147" y1="13.4239" x2="16.0147" y2="10.16" width="0.002540625" layer="20"/>
+<wire x1="4.1021" y1="43.1673" x2="4.1021" y2="13.3604" width="0.002540625" layer="20"/>
+<wire x1="34.0868" y1="43.1673" x2="4.1021" y2="43.1673" width="0.002540625" layer="20"/>
+<wire x1="6.2484" y1="10.16" x2="14.5161" y2="10.16" width="0.002540625" layer="20"/>
+<wire x1="31.9405" y1="10.16" x2="16.0147" y2="10.16" width="0.002540625" layer="20"/>
+<text x="32.3469" y="22.8473" size="0.8128" layer="121" rot="R90">Thanks to Yifanlu</text>
 </plain>
 <libraries>
-<library name="mini-pci-e">
-<packages>
-<package name="HALF-MINI-PCI-E">
-<wire x1="0" y1="0" x2="0" y2="4.6" width="0" layer="51"/>
-<wire x1="-0.75" y1="0" x2="-0.75" y2="3.3" width="0" layer="20"/>
-<wire x1="0.75" y1="0" x2="0.75" y2="3.3" width="0" layer="20"/>
-<wire x1="-0.75" y1="3.3" x2="0.75" y2="3.3" width="0" layer="20" curve="-180"/>
-<smd name="15" x="-2.35" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="17" x="1.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="13" x="-3.15" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="11" x="-3.95" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="9" x="-4.75" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="7" x="-5.55" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="5" x="-6.35" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="3" x="-7.15" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="1" x="-7.95" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<wire x1="-0.75" y1="0" x2="-9" y2="0" width="0" layer="20"/>
-<hole x="-8.25" y="23.9" drill="2.6"/>
-<wire x1="-9" y1="0" x2="-9" y2="2.8" width="0" layer="20"/>
-<wire x1="-11.15" y1="3.2" x2="-10" y2="3.2" width="0" layer="20"/>
-<wire x1="-10" y1="3.2" x2="-9.4" y2="3.2" width="0" layer="20"/>
-<wire x1="-9.4" y1="3.2" x2="-9" y2="2.8" width="0" layer="20" curve="-90"/>
-<wire x1="-11.15" y1="3.2" x2="-11.15" y2="26.8" width="0" layer="20"/>
-<wire x1="-11.15" y1="26.8" x2="18.85" y2="26.8" width="0" layer="20"/>
-<wire x1="18.85" y1="26.8" x2="18.85" y2="3.2" width="0" layer="20"/>
-<wire x1="0.75" y1="0" x2="16.7" y2="0" width="0" layer="20"/>
-<wire x1="16.7" y1="0" x2="16.7" y2="2.8" width="0" layer="20"/>
-<wire x1="18.85" y1="3.2" x2="17.7" y2="3.2" width="0" layer="20"/>
-<wire x1="17.7" y1="3.2" x2="17.1" y2="3.2" width="0" layer="20"/>
-<wire x1="17.1" y1="3.2" x2="16.7" y2="2.8" width="0" layer="20" curve="90"/>
-<wire x1="18.85" y1="3.2" x2="18.85" y2="26.8" width="0" layer="20"/>
-<hole x="15.95" y="23.9" drill="2.6"/>
-<smd name="19" x="2.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="21" x="3.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="23" x="4.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="25" x="4.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="27" x="5.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="29" x="6.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="31" x="7.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="33" x="8.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="35" x="8.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="37" x="9.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="39" x="10.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="41" x="11.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="43" x="12.05" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="45" x="12.85" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="47" x="13.65" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="49" x="14.45" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<smd name="51" x="15.25" y="1.35" dx="0.6" dy="2.4" layer="1"/>
-<rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="39"/>
-<rectangle x1="-11.15" y1="21" x2="-5.35" y2="26.8" layer="39"/>
-<rectangle x1="12.85" y1="21" x2="18.65" y2="26.8" layer="39"/>
-<smd name="4" x="-6.75" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="6" x="-5.95" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="2" x="-7.55" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="8" x="-5.15" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="10" x="-4.35" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="12" x="-3.55" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="14" x="-2.75" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="16" x="-1.95" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="18" x="2.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="20" x="2.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="22" x="3.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="24" x="4.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="26" x="5.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="28" x="6.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="30" x="6.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="32" x="7.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="34" x="8.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="36" x="9.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="38" x="10.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="40" x="10.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="42" x="11.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="44" x="12.45" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="46" x="13.25" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="48" x="14.05" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="50" x="14.85" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<smd name="52" x="15.65" y="1.35" dx="0.6" dy="2.4" layer="16" rot="R180"/>
-<rectangle x1="-11.05" y1="21" x2="-5.25" y2="26.8" layer="40" rot="R180"/>
-<rectangle x1="12.95" y1="21" x2="18.75" y2="26.8" layer="40" rot="R180"/>
-<rectangle x1="-11.2" y1="2.8" x2="18.8" y2="5.2" layer="40" rot="R180"/>
-<pad name="GND@1" x="-8.25" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
-<pad name="GND@2" x="15.95" y="23.9" drill="2.6" diameter="4.8" shape="square" thermals="no"/>
-<text x="8" y="13.5" size="1.27" layer="52" rot="MR0">BOTTOM</text>
-<text x="2.4" y="15.3" size="1.27" layer="51">TOP</text>
-</package>
-</packages>
-</library>
 <library name="Microchip_By_element14_Batch_1">
 <description>Developed by element14 :&lt;br&gt;
 element14 CAD Library consolidation.ulp
@@ -436,7 +385,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="E$1" library="mini-pci-e" package="HALF-MINI-PCI-E" value="" x="15.24" y="10.16"/>
 <element name="E$2" library="Microchip_By_element14_Batch_1" package="SOT95P270X145-6N" value="" x="25.8826" y="21.3106"/>
 </elements>
 <signals>
@@ -468,6 +416,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="S$2">
 <via x="12.4968" y="26.5938" extent="1-16" drill="2.286"/>
+<via x="7.0485" y="40.7797" extent="1-16" drill="2.286"/>
+<via x="31.2166" y="40.7035" extent="1-16" drill="2.286"/>
 </signal>
 <signal name="S$7">
 <via x="25.6794" y="26.5938" extent="1-16" drill="2.286"/>
